@@ -1,0 +1,73 @@
+.dropdown-menu-center {
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.custom-toggle {
+    background-color: #ef8d8d; 
+    color: white;
+    border: 1px solid #facace; 
+    transition: background-color 0.3s ease; 
+}
+
+.custom-toggle:hover {
+    background-color: #bb6f6f; 
+    border-color: #bb6f6f; 
+}
+
+.custom-toggle:focus {
+    background-color: #000 !important; 
+    border-color: #bb6f6f !important; 
+}
+
+.custom-toggle:active {
+    background-color: #000 !important; 
+    border-color: #bb6f6f !important;
+}
+
+.dropdown-toggle:active {
+    background-color: #000 !important; 
+    border-color: #bb6f6f !important; 
+}
+
+
+@font-face {
+    font-family: 'Cutedino';
+    src: url("C:\Users\jasmi\Omatprojektit\react\my-app\public\fonts\Cutedino.ttf");
+}
+
+/* .countrycard{
+    font-family: Cutedino;
+} */
+/* countries.css */
+
+.countrycard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px; /* Voit säätää tätä */
+    padding: 15px; /* Voit säätää tätä */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.countrycard img {
+    width: 80px; /* Voit säätää leveyttä haluamallasi tavalla */
+    height: auto; /* Säilyttää kuvan mittasuhteet */
+    margin-right: 15px; /* Lisää väli lippuun ja tekstiin */
+}
+
+.country-title {
+    font-size: 1.5rem; /* Säädä tarvittaessa */
+    font-weight: bold;
+}
+
+.country-text {
+    font-size: 1rem; /* Säädä tarvittaessa */
+}
+
+/* 
+body {
+    overflow: hidden; 
+  }
+   */
