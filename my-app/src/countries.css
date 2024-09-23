@@ -16,17 +16,17 @@
 }
 
 .custom-toggle:focus {
-    background-color: #000 !important; 
+    background-color: #bb6f6f !important; 
     border-color: #bb6f6f !important; 
 }
 
 .custom-toggle:active {
-    background-color: #000 !important; 
+    background-color: #bb6f6f !important; 
     border-color: #bb6f6f !important;
 }
 
 .dropdown-toggle:active {
-    background-color: #000 !important; 
+    background-color: #bb6f6f !important; 
     border-color: #bb6f6f !important; 
 }
 
@@ -46,7 +46,7 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
-    margin-top: 20px; /* Voit säätää tätä */
+    margin-top: 40px; /* Voit säätää tätä */
     padding: 15px; /* Voit säätää tätä */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
