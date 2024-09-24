@@ -9,12 +9,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './countries.css';
 
 
-// Komponentit
+// Muuttujat
 function Countries() {
-    const [countries, setCountries] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
-    const [selectedCountry, setSelectedCountry] = useState(null);
+    const [countries, setCountries] = useState([]); //valitut maat
+    const [loading, setLoading] = useState(true); // onko sovellus lataustilassa
+    const [error, setError] = useState(null); // virheet datan hakemisessa
+    const [selectedCountry, setSelectedCountry] = useState(null); // valitun maan tiedot
 
 
     // Funktio maitten hakuun
